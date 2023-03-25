@@ -8,10 +8,11 @@ In this project, you can use Razorpay API's to pay and collect the payments with
 - APIS
     - Root URL: /razorpay/status/
 
-    Payments API's
+Payments API's
     - Root URL: /razorpay/link/
     - Root URL: /razorpay/status/<id>/
-    Payout API's
+
+Payout API's
     - Root URL: /razorpay/contact/
     - Root URL: /razorpay/contact/<id>/
     - Root URL: /razorpay/fund-account/
