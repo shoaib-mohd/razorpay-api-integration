@@ -42,7 +42,7 @@ def razorpay_create_payout():
     return Payout().create_payout(request.data)
 
 
-@app.route("/razorpay/account/<id>/", methods=["GET"])
+@app.route("/razorpay/payout/<id>/", methods=["GET"])
 def razorpay_get_payout(id):
     return Payout().get_payouts_by_id(id)
 
