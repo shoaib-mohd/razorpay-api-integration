@@ -14,15 +14,13 @@ In this project, you can use Razorpay API's to pay and collect the payments with
 
 ```json
 {
-  "amount": "integer Amount to be paid using the Payment Link. Must be in the smallest unit of the currency. For example, if you want to receive a payment of ₹300.00, you must enter the value 30000.",
-  "customer": {
-    "contact": "string The customer's phone number."
-  },
-  "notify": {
-    "sms": "boolean Defines who handles the SMS notification.
-    true - Razorpay handles the notification.
-    false - You handle the notification."
-  }
+    "amount": "integer Amount to be paid using the Payment Link. Must be in the smallest unit of the currency. For example, if you want to receive a payment of ₹300.00, you must enter the value 30000.",
+    "customer": {
+        "contact": "string The customer's phone number."
+    },
+    "notify": {
+        "sms": "boolean Defines who handles the SMS notification. true - Razorpay handles the notification. false - You handle the notification."
+    }
 }
 ```
 
