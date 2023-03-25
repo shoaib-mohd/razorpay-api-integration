@@ -10,6 +10,7 @@ class Payment:
         self.payment_link = "https://api.razorpay.com/v1/payment_links"
         self.key_id = "rzp_test_DnwuSeunt0n5aa"
         self.key_secret = "p4uyvFH8t8Ktnmc0UHXunIAk"
+        # for more information: https://razorpay.com/docs/api/
 
     def create_link(self, payload):
         '''
